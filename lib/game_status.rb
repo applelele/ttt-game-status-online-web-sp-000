@@ -59,7 +59,7 @@ end
 
 def winner(board)
   won?(board).each do |index|
-    binding.pry
+    # binding.pry
   if board[index] == "X"
     return "X"
   elsif board[index] == "O"
