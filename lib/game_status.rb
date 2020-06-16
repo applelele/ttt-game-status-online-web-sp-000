@@ -58,8 +58,8 @@ def over?(board)
 end
 
 def winner(board)
-  if win_combo = won?(board)
-    # binding.pry [0, 4, 8]
+  if win_combo = won?(board) # [0, 4, 8]
+    # binding.pry
     winner = board[win_combo.first]
   end
 end
