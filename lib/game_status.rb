@@ -58,14 +58,9 @@ def over?(board)
 end
 
 def winner(board)
-  win_combo = won?(board)
+  if win_combo = won?(board)
     binding.pry
-  if board[index] == "X"
-    return "X"
-  elsif board[index] == "O"
-    return "O"
-  elsif !won?(board)
-    nil
+  
   end
 end
 end
