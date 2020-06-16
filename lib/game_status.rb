@@ -55,3 +55,13 @@ def over?(board)
     false
   end
 end
+
+def winner(board)
+  won?(board).each do |index|
+  if board[index] == "X"
+    return "X"
+  elsif board[index] == "O"
+    return "O"
+  end
+    
+end
