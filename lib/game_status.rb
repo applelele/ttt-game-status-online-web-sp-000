@@ -60,6 +60,6 @@ end
 def winner(board)
   if win_combo = won?(board)
     binding.pry
-  
+
   end
 end
