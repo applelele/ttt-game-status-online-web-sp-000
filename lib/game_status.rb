@@ -59,7 +59,7 @@ end
 
 def winner(board)
   # if win_combo = won?(board)
-    # binding.pry [0, 4, 8]
+    binding.pry #[0, 4, 8]
     winner = board[won?(board).first]
   # end
 end
