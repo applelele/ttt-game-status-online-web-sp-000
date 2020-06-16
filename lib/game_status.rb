@@ -58,8 +58,8 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board).each do |index|
-    # binding.pry
+  win_combo = won?(board)
+    binding.pry
   if board[index] == "X"
     return "X"
   elsif board[index] == "O"
